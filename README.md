@@ -1,15 +1,7 @@
  ### Hola, mi nombre es Brandonly122 👋
 ### PROGRAMADOR 
 
-Request<Block> request = iconService.getBlock(height);
-try {
-    Block block = request.execute();
-    ...
-} catch (IOException e) {
-    ...    
-}
-
-
+IconService iconService = new IconService(new HttpProvider("https://url"));
 ## Tecnologías:
 [![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white&labelColor=101010)]()
 [![Xcode](https://img.shields.io/badge/Xcode-1575F9?style=for-the-badge&logo=xcode&logoColor=white&labelColor=101010)]()
