@@ -1,7 +1,13 @@
  ### Hola, mi nombre es Brandonly122 👋
 ### PROGRAMADOR 
 
-
+Request<Block> request = iconService.getBlock(height);
+try {
+    Block block = request.execute();
+    ...
+} catch (IOException e) {
+    ...    
+}
 
 
 ## Tecnologías:
